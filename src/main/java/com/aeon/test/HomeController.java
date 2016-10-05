@@ -38,6 +38,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/item")
 	public String getItem(){
+		System.out.println("changes in text");
 		return "test";
 	}
 	
