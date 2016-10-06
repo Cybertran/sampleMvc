@@ -42,4 +42,10 @@ public class HomeController {
 		return "test";
 	}
 	
+	@RequestMapping(value="/test")
+	public String test(){
+		System.out.println("changes in text");
+		return "test";
+	}
+	
 }
